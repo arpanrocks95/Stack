@@ -49,7 +49,7 @@ string postToInfix(string post_exp) {
 
 // Driver Code
 int main() {
-    string post_exp = "ab*c+";
+    string post_exp = "ABC/-AK/L-*";
     cout << "Infix : " << postToInfix(post_exp);
     return 0;
 }
